@@ -1,0 +1,22 @@
+name: uts_pemograman_mobile2_ineke
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you want to publish your package
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  # Tambahkan dependensi tambahan di sini jika diperlukan
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  assets:
+    - assets/ineke.jpg # Tambahkan gambar profil kamu di folder assets
+    - assets/icons/ # Jika ada folder ikonik yang ingin digunakan
+  uses-material-design: true
